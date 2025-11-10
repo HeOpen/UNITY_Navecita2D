@@ -1,37 +1,22 @@
 fileFormatVersion: 2
-guid: 964754d087993d20c8c7284c9339da76
+guid: e4cfc7ef1b0d8e2b4a180120ef421c3b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -5558509249407061354
-    second: fastTortuga_0
+      213: -8278093031294749872
+    second: tortuga_0
   - first:
-      213: -7975850991948629270
-    second: fastTortuga_1
+      213: -7237425596328653436
+    second: tortuga_1
   - first:
-      213: 3817354183252635619
-    second: fastTortuga_2
+      213: -6659740119909829585
+    second: tortuga_2
   - first:
-      213: -1491140790779072526
-    second: fastTortuga_3
+      213: -1485577453413993181
+    second: tortuga_3
   - first:
-      213: -4719491895350285621
-    second: fastTortuga_4
-  - first:
-      213: 2957605499941014539
-    second: fastTortuga_5
-  - first:
-      213: -1152239502522014227
-    second: fastTortuga_6
-  - first:
-      213: -3069253048420028468
-    second: fastTortuga_7
-  - first:
-      213: -5963488254338252443
-    second: fastTortuga_8
-  - first:
-      213: 2314841811452936295
-    second: fastTortuga_9
+      213: 1000549056309477949
+    second: tortuga_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -73,7 +58,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -140,13 +125,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fastTortuga_0
+      name: tortuga_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 257
-        width: 126
-        height: 147
+        y: 326
+        width: 108
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6927e54b9453cd2b0800000000000000
-      internalID: -5558509249407061354
+      spriteID: 0533a0c4f3e4e1d80800000000000000
+      internalID: -8278093031294749872
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fastTortuga_1
+      name: tortuga_1
       rect:
         serializedVersion: 2
-        x: 120
-        y: 262
-        width: 137
-        height: 150
+        x: 107
+        y: 123
+        width: 405
+        height: 266
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -177,20 +162,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: aea747bd7c5105190800000000000000
-      internalID: -7975850991948629270
+      spriteID: 48dc28204cf7f8b90800000000000000
+      internalID: -7237425596328653436
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fastTortuga_2
+      name: tortuga_2
       rect:
         serializedVersion: 2
-        x: 220
-        y: 238
-        width: 170
-        height: 120
+        x: 0
+        y: 280
+        width: 89
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -199,20 +184,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 3efef9a8767f9f430800000000000000
-      internalID: 3817354183252635619
+      spriteID: f247b5055a9d393a0800000000000000
+      internalID: -6659740119909829585
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fastTortuga_3
+      name: tortuga_3
       rect:
         serializedVersion: 2
-        x: 247
-        y: 357
-        width: 150
-        height: 59
+        x: 0
+        y: 233
+        width: 89
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,20 +206,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2ffa487e9576e4be0800000000000000
-      internalID: -1491140790779072526
+      spriteID: 325fde25d2b226be0800000000000000
+      internalID: -1485577453413993181
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fastTortuga_4
+      name: tortuga_4
       rect:
         serializedVersion: 2
-        x: 384
-        y: 244
-        width: 82
-        height: 130
+        x: 0
+        y: 186
+        width: 97
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -243,118 +228,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bcaaf49402ff08eb0800000000000000
-      internalID: -4719491895350285621
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fastTortuga_5
-      rect:
-        serializedVersion: 2
-        x: 101
-        y: 180
-        width: 371
-        height: 105
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b0cc9b938868b0920800000000000000
-      internalID: 2957605499941014539
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fastTortuga_6
-      rect:
-        serializedVersion: 2
-        x: 142
-        y: 96
-        width: 124
-        height: 116
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: de5a00cf64c6200f0800000000000000
-      internalID: -1152239502522014227
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fastTortuga_7
-      rect:
-        serializedVersion: 2
-        x: 447
-        y: 161
-        width: 65
-        height: 74
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ccfa3233d92d765d0800000000000000
-      internalID: -3069253048420028468
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fastTortuga_8
-      rect:
-        serializedVersion: 2
-        x: 246
-        y: 135
-        width: 85
-        height: 39
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 56144f1570f6d3da0800000000000000
-      internalID: -5963488254338252443
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fastTortuga_9
-      rect:
-        serializedVersion: 2
-        x: 331
-        y: 98
-        width: 165
-        height: 77
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 760cfdaec58ff1020800000000000000
-      internalID: 2314841811452936295
+      spriteID: d32cda9c01aa2ed00800000000000000
+      internalID: 1000549056309477949
       vertices: []
       indices: 
       edges: []
@@ -363,7 +238,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -373,16 +248,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      fastTortuga_0: -5558509249407061354
-      fastTortuga_1: -7975850991948629270
-      fastTortuga_2: 3817354183252635619
-      fastTortuga_3: -1491140790779072526
-      fastTortuga_4: -4719491895350285621
-      fastTortuga_5: 2957605499941014539
-      fastTortuga_6: -1152239502522014227
-      fastTortuga_7: -3069253048420028468
-      fastTortuga_8: -5963488254338252443
-      fastTortuga_9: 2314841811452936295
+      tortuga_0: -8278093031294749872
+      tortuga_1: -7237425596328653436
+      tortuga_2: -6659740119909829585
+      tortuga_3: -1485577453413993181
+      tortuga_4: 1000549056309477949
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -1,37 +1,22 @@
 fileFormatVersion: 2
-guid: 277e25bc178ce8ff0ade131fca27c642
+guid: 71d34af1bd3364d778732f12ddd2e00c
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 975857427547682220
-    second: liebre_0
+      213: -8278093031294749872
+    second: tortuga_0
   - first:
-      213: 1836560945325274936
-    second: liebre_1
+      213: -7237425596328653436
+    second: tortuga_1
   - first:
-      213: 3318117164111833033
-    second: liebre_2
+      213: -6659740119909829585
+    second: tortuga_2
   - first:
-      213: -351826999845570003
-    second: liebre_3
+      213: -1485577453413993181
+    second: tortuga_3
   - first:
-      213: 236518333835626792
-    second: liebre_4
-  - first:
-      213: 1900897754361933043
-    second: liebre_5
-  - first:
-      213: -1914554424859623923
-    second: liebre_6
-  - first:
-      213: -6534286075220376863
-    second: liebre_7
-  - first:
-      213: 6249352274469607530
-    second: liebre_8
-  - first:
-      213: -2462319205914701790
-    second: liebre_9
+      213: 1000549056309477949
+    second: tortuga_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -140,13 +125,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: liebre_0
+      name: tortuga_0
       rect:
         serializedVersion: 2
-        x: 35
-        y: 392
-        width: 21
-        height: 14
+        x: 0
+        y: 326
+        width: 108
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -155,20 +140,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ca5f768f821fa8d00800000000000000
-      internalID: 975857427547682220
+      spriteID: 0533a0c4f3e4e1d80800000000000000
+      internalID: -8278093031294749872
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: liebre_1
+      name: tortuga_1
       rect:
         serializedVersion: 2
-        x: 66
-        y: 392
-        width: 110
-        height: 14
+        x: 107
+        y: 123
+        width: 405
+        height: 266
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -177,20 +162,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 837f7720376cc7910800000000000000
-      internalID: 1836560945325274936
+      spriteID: 48dc28204cf7f8b90800000000000000
+      internalID: -7237425596328653436
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: liebre_2
+      name: tortuga_2
       rect:
         serializedVersion: 2
-        x: 70
-        y: 138
-        width: 404
-        height: 290
+        x: 0
+        y: 280
+        width: 89
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -199,20 +184,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9c7230a0bf15c0e20800000000000000
-      internalID: 3318117164111833033
+      spriteID: f247b5055a9d393a0800000000000000
+      internalID: -6659740119909829585
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: liebre_3
+      name: tortuga_3
       rect:
         serializedVersion: 2
-        x: 53
-        y: 354
-        width: 20
-        height: 14
+        x: 0
+        y: 233
+        width: 89
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,20 +206,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d2a30db253f0e1bf0800000000000000
-      internalID: -351826999845570003
+      spriteID: 325fde25d2b226be0800000000000000
+      internalID: -1485577453413993181
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: liebre_4
+      name: tortuga_4
       rect:
         serializedVersion: 2
-        x: 171
-        y: 125
-        width: 20
-        height: 14
+        x: 0
+        y: 186
+        width: 97
+        height: 18
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -243,118 +228,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 829c327eb28484300800000000000000
-      internalID: 236518333835626792
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: liebre_5
-      rect:
-        serializedVersion: 2
-        x: 202
-        y: 125
-        width: 20
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 3fca41baf68516a10800000000000000
-      internalID: 1900897754361933043
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: liebre_6
-      rect:
-        serializedVersion: 2
-        x: 232
-        y: 125
-        width: 111
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d0ef613f4e22e65e0800000000000000
-      internalID: -1914554424859623923
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: liebre_7
-      rect:
-        serializedVersion: 2
-        x: 85
-        y: 87
-        width: 21
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 1e245b94f6d8155a0800000000000000
-      internalID: -6534286075220376863
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: liebre_8
-      rect:
-        serializedVersion: 2
-        x: 116
-        y: 87
-        width: 20
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a685a0c78c82ab650800000000000000
-      internalID: 6249352274469607530
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: liebre_9
-      rect:
-        serializedVersion: 2
-        x: 147
-        y: 87
-        width: 110
-        height: 14
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 22015d76ab514ddd0800000000000000
-      internalID: -2462319205914701790
+      spriteID: d32cda9c01aa2ed00800000000000000
+      internalID: 1000549056309477949
       vertices: []
       indices: 
       edges: []
@@ -373,16 +248,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      liebre_0: 975857427547682220
-      liebre_1: 1836560945325274936
-      liebre_2: 3318117164111833033
-      liebre_3: -351826999845570003
-      liebre_4: 236518333835626792
-      liebre_5: 1900897754361933043
-      liebre_6: -1914554424859623923
-      liebre_7: -6534286075220376863
-      liebre_8: 6249352274469607530
-      liebre_9: -2462319205914701790
+      tortuga_0: -8278093031294749872
+      tortuga_1: -7237425596328653436
+      tortuga_2: -6659740119909829585
+      tortuga_3: -1485577453413993181
+      tortuga_4: 1000549056309477949
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

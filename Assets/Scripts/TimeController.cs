@@ -4,7 +4,7 @@ public class TimeController : MonoBehaviour
 {
     public void Lento()
     {
-        Time.timeScale = 0.25f; // Juego más lento
+        Time.timeScale = 0.6f; // Juego más lento
     }
 
     public void Rapido()

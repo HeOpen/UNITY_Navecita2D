@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class SpawnAsteroids : MonoBehaviour
+public class Spawner : MonoBehaviour
 {
     public GameObject obstacle;
     public float minX, maxX;
