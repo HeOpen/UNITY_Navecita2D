@@ -7,6 +7,7 @@ public class Spawner : MonoBehaviour
     public float minY, maxY;
     public float timeBetweenSpawn = 2f;
     public float launchForce = 250f;
+    public float lifeTime;
 
     void Start()
     {
@@ -29,6 +30,9 @@ public class Spawner : MonoBehaviour
 
         // 4. Lanzar hacia la izquierda
         Rigidbody2D rb = newAsteroid.GetComponent<Rigidbody2D>();
+        
+        Destroy(newAsteroid, lifeTime);
+        
         if (rb != null)
         {
             rb.AddForce(Vector2.left * launchForce);
