@@ -50,7 +50,7 @@ public class LogicScript : MonoBehaviour
     {
         score += 1;
         scoreText.text = score.ToString();
-        finalScoreText = scoreText.text;
+        finalScoreText.text = score.ToString();
     }
 
     public void decreaseLife()
