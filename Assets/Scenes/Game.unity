@@ -2621,6 +2621,7 @@ MonoBehaviour:
   scoreText: {fileID: 1049403798}
   livesText: {fileID: 462268377}
   healthSlider: {fileID: 1668291728}
+  GameOverScreen: {fileID: 1550216909}
 --- !u!1 &1250096219
 GameObject:
   m_ObjectHideFlags: 0
