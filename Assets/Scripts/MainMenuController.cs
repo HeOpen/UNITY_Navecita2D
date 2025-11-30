@@ -6,6 +6,7 @@ public class MainMenuController : MonoBehaviour
     [Header("Panels")]
     public GameObject optionsPanel;
     public GameObject instructionsPanel;
+    public GameObject leaderboardPanel;
 
     public void PlayGame()
     {
@@ -29,6 +30,22 @@ public class MainMenuController : MonoBehaviour
     public void CloseInstructions()
     {
         instructionsPanel.SetActive(false);
+    }
+
+    public void OpenLeaderboard()
+    {
+        if (leaderboardPanel != null)
+        {
+            leaderboardPanel.SetActive(true);
+        }
+    }
+
+    public void CloseLeaderboard()
+    {
+        if (leaderboardPanel != null)
+        {
+            leaderboardPanel.SetActive(false);
+        }
     }
 
     public void QuitGame()

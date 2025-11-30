@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 77ad2f31af8961bcfa126c8420f90bed
+guid: f1fa74b19d30bf0588992c0d1e22f525
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -2021742266483819239
-    second: FondoGalaxia_0
+      213: -5806429548128397179
+    second: trophy_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -96,30 +96,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FondoGalaxia_0
+      name: trophy_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 1920
-        height: 1080
+        x: 3
+        y: 11
+        width: 486
+        height: 483
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 91db6dace1451f3e0800000000000000
-      internalID: -2021742266483819239
+      spriteID: 588997af61b6b6fa0800000000000000
+      internalID: -5806429548128397179
       vertices: []
       indices: 
       edges: []
@@ -148,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      FondoGalaxia_0: -2021742266483819239
+      trophy_0: -5806429548128397179
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

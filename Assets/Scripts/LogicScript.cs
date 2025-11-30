@@ -1,6 +1,7 @@
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI; 
+using UnityEngine.SceneManagement;
 
 public class LogicScript : MonoBehaviour
 {
@@ -16,6 +17,8 @@ public class LogicScript : MonoBehaviour
     
     public Slider healthSlider;
 	public GameObject GameOverScreen;
+    public GameObject pausePanel; 
+    public bool isPaused = false;
 
     private void Awake() 
     {
@@ -61,6 +64,13 @@ public class LogicScript : MonoBehaviour
         
 		if(lives<=0)
 		{
+            // 1. Get the Name we saved in the input screen
+            string playerName = PlayerPrefs.GetString("nombreUsuario", "Pilot");
+
+            // 2. Save to the Top 10 List
+            LeaderboardManager.SaveScore(playerName, score);
+
+            // 3. Trigger Game Over
 			GameOver();
 		}
 
@@ -82,4 +92,57 @@ public class LogicScript : MonoBehaviour
     {
         magnet = true; 
     }
+
+    public void RestartGame()
+    {
+        Time.timeScale = 1f; 
+        
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    public void LoadMenu()
+    {
+        Time.timeScale = 1f;
+
+        SceneManager.LoadScene(0); 
+    }
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            if (isPaused)
+            {
+                ResumeGame();
+            }
+            else
+            {
+                PauseGame();
+            }
+        }
+    }
+
+    public void PauseGame()
+    {
+        isPaused = true;
+        Time.timeScale = 0f;
+        
+        
+        if (pausePanel != null)
+        {
+            pausePanel.SetActive(true);
+        }
+    }
+
+    public void ResumeGame()
+    {
+        isPaused = false;
+        Time.timeScale = 1f;
+        
+        if (pausePanel != null)
+        {
+            pausePanel.SetActive(false);
+        }
+    }
+
 }
